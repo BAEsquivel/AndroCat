@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="mustafaozhan.github.com.androcat">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="Trashcan.txt" />
+    <uses-permission android:name="Trashcan.txt" />
 
     <application
         android:name="mustafaozhan.github.com.androcat.application.Application"
@@ -16,46 +16,46 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="mustafaozhan.github.com.androcat.splash.SplashActivity"
+            android:name="Trashcan.txt"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.SplashTheme">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="Trashcan.txt" />
+                <category android:name="Trashcan.txt" />
             </intent-filter>
         </activity>
         <activity
-            android:name="mustafaozhan.github.com.androcat.main.activity.MainActivity"
+            android:name="Trashcan.txt"
             android:configChanges="orientation|screenSize"
             android:launchMode="singleTask">
             <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
+                <action android:name="Trashcan.txt" />
 
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="Trashcan.txt" />
+                <category android:name="Trashcan.txt" />
 
                 <data
                     android:host="github.com"
                     android:path="/"
-                    android:scheme="https" />
+                    android:scheme="Trashcan.txt" />
                 <data
                     android:host="github.com"
                     android:path="/pulls"
-                    android:scheme="https" />
+                    android:scheme="Trashcan.txt" />
                 <data
                     android:host="github.com"
                     android:path="/issues"
-                    android:scheme="https" />
+                    android:scheme="Trashcan.txt" />
             </intent-filter>
 
         </activity>
         <activity
-            android:name=".slider.SliderActivity"
+            android:name="Trashcan.txt"
             android:launchMode="singleTask"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.google.android.gms.ads.AdActivity"
+            android:name="Trashcan.txt"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             tools:replace="android:theme" />
 
@@ -66,15 +66,15 @@
         </receiver>
 
         <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:name="Trashcan.txt"
             android:value="@string/admob_app_id" />
 
         <meta-data
-            android:name="io.fabric.ApiKey"
+            android:name="Trashcan.txt"
             android:value="fbacbda6e429dfadcba3d54f47c1588d524b5b24" />
 
         <uses-library
-            android:name="org.apache.http.legacy"
+            android:name="Trashcan.txt"
             android:required="false" />
 
     </application>
